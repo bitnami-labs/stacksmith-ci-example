@@ -2,6 +2,11 @@ language: go
 go:
   - 1.10
 
+env:
+  global:
+    # Should be encrypted or set as private travis variables (in travis settings):
+    # - STACKSMITH_ACCESS_TOKEN=''
+
 install:
   - wget https://github.com/bitnami/stacksmith-cli/releases/download/v0.1/stacksmith-linux-amd64 -O /tmp/stacksmith
   - sudo install /tmp/stacksmith /usr/local/bin/stacksmith
