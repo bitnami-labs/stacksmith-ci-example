@@ -1,5 +1,5 @@
 appId: bitnami-azure/apps/890a14d0-7320-0136-b2a0-1e665ac899ba
-appVersion: "0.4.1"
+appVersion: "0.4.2"
 files:
   userUploads:
     - my-application
